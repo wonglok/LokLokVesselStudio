@@ -1,0 +1,13 @@
+{
+  "name": "vessel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run serve\" \"npm run live\"",
+    "serve": "serve",
+    "live": "livereload --exts 'vue, css, js, html'"
+  },
+  "author": "",
+  "license": "ISC"
+}
